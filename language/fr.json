@@ -157,6 +157,10 @@
           "default": "Vérifier les réponses. Les réponses seront marquées comme correcte, incorrecte ou sans réponse."
         },
         {
+          "label": "Texte pour afficher une « solution personnalisée »",
+          "default": ""
+        },
+        {
           "label": "Texte pour la touche « Afficher la solution »",
           "default": "Afficher la solution"
         },

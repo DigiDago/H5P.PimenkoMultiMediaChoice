@@ -327,6 +327,33 @@
         "default": "Show solution"
       },
       {
+        "label": "Text for add a solution custom",
+        "name": "solutionCustomText",
+        "type": "text",
+        "widget": "html",
+        "importance": "low",
+        "default": "",
+        "tags": [
+          "strong",
+          "em",
+          "p",
+          "h1",
+          "h2",
+          "h3",
+          "sub",
+          "sup",
+          "u",
+          "strike",
+          "ul",
+          "ol",
+          "blockquote",
+          "a",
+          "table",
+          "hr",
+          "code"
+        ]
+      },
+      {
         "name": "showSolution",
         "type": "text",
         "label": "Assistive technology description for \"Show Solution\" button",

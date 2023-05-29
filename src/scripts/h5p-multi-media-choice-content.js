@@ -1,11 +1,11 @@
-import { MultiMediaChoiceOption } from './h5p-multi-media-choice-option';
+import { PimenkoMultiMediaChoiceOption } from './h5p-multi-media-choice-option';
 import * as Masonry from 'masonry-layout';
 
 const optionMinWidth = 210;
 const columnGap = 20;
 
 /** Class representing the content */
-export default class MultiMediaChoiceContent {
+export default class PimenkoMultiMediaChoiceContent {
   /**
    * @constructor
    * @param {object} params Parameters.
@@ -68,7 +68,7 @@ export default class MultiMediaChoiceContent {
     this.options = this.params.options
       ? this.params.options.map(
         (option, index) =>
-          new MultiMediaChoiceOption(
+          new PimenkoMultiMediaChoiceOption(
             option,
             contentId,
             this.aspectRatio,
@@ -132,7 +132,7 @@ export default class MultiMediaChoiceContent {
 
   /**
    * Return a list of the displayed options
-   * @returns {MultiMediaChoiceOption[]} An array of HTML options
+   * @returns {PimenkoMultiMediaChoiceOption[]} An array of HTML options
    */
   getOptions() {
     return this.options;

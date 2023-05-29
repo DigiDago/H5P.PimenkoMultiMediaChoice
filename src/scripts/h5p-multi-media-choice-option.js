@@ -1,7 +1,7 @@
 import { htmlDecode } from "./h5p-multi-media-choice-util";
 
 /** Class representing a multi media option */
-export class MultiMediaChoiceOption {
+export class PimenkoMultiMediaChoiceOption {
   /**
    * @constructor
    * @param {object} option Option object from the editor
@@ -90,7 +90,7 @@ export class MultiMediaChoiceOption {
     const title = this.media.params.title ? this.media.params.title : '';
 
     let path = '';
-    if (this.media.params.file) { 
+    if (this.media.params.file) {
       path = H5P.getPath(this.media.params.file.path, this.contentId);
     }
 

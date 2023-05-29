@@ -157,6 +157,10 @@
           "default": "Check the answers. The responses will be marked as correct, incorrect, or unanswered."
         },
         {
+          "label": "Text for add a solution custom",
+          "default": ""
+        },
+        {
           "label": "Text for \"Show solution\" button",
           "default": "Show solution"
         },

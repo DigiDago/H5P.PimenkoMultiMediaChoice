@@ -1,13 +1,13 @@
 {
-  "title": "Image Choice",
+  "title": "Image Choice - pimenko version",
   "description": "Create an Image Choice",
   "majorVersion": 0,
-  "minorVersion": 3,
-  "patchVersion": 10,
+  "minorVersion": 1,
+  "patchVersion": 5,
   "runnable": 1,
-  "author": "Joubel AS",
+  "author": "Original: Oliver Tacke -- Edited by Pimenko",
   "license": "MIT",
-  "machineName": "H5P.MultiMediaChoice",
+  "machineName": "H5P.PimenkoMultiMediaChoice",
   "embedTypes": [
     "iframe"
   ],
