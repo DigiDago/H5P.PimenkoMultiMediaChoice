@@ -16,3 +16,7 @@ To create the package H5P file :
 ```
 h5p pack DirectoryName/ namefile.h5p
 ```
+
+# Information about changment 
+** **
+Adding custom feedback option thanks to "solutionCustomTexts modification
